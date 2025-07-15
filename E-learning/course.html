@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course - E-Learn</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>E-Learning Platform</h1>
+    <nav>
+      <a href="index.html">Courses</a>
+      <a href="course.html">My Learning</a>
+    </nav>
+  </header>
+
+  <main class="course-detail">
+    <h2 id="course-title">Course Title</h2>
+
+    <div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=uZm21hujBDwVu9bX&amp;list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="progress-section">
+      <label for="progress">Progress:</label>
+      <input type="range" id="progress" min="0" max="100" value="0" />
+      <span id="progress-value">0%</span>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
